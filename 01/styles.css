@@ -12,12 +12,25 @@ body {
     background: #2B2A30;
 }
 
-.timer {
-    font-family: 'Bebas Neue';
-    color: #fff;
-    font-size: 196px;   
+.container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.timer {
+    min-width: 500px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 9px solid #000000;
+    border-radius: 50%;
+}
+
+.timer__text {
+    font-family: 'Bebas Neue';
+    color: #fff;
+    font-size: 196px;
 }
