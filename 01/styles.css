@@ -27,6 +27,7 @@ body {
     align-items: center;
     outline: 9px solid #000000;
     border-radius: 50%;
+    background: radial-gradient(circle at center, #3A393F, #3A393F, #17171A, #17171A);
 }
 
 .timer__text {
