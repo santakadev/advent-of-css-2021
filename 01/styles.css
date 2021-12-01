@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(FILES/STARTER/fonts/bebasneue-book-webfont.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: #2B2A30;
+}
+
+.timer {
+    font-family: 'Bebas Neue';
+    color: #fff;
+    font-size: 196px;   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
