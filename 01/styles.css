@@ -23,15 +23,33 @@ body {
     min-width: 500px;
     min-height: 500px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     outline: 9px solid #000000;
     border-radius: 50%;
     background: radial-gradient(circle at center, #3A393F, #3A393F, #17171A, #17171A);
+    box-shadow: 5px 16px 50px #ffffff15, -5px 14px 44px #000;
 }
 
 .timer__text {
     font-family: 'Bebas Neue';
     color: #fff;
+    text-shadow: 0 4px 4px #00000025;
     font-size: 196px;
+}
+
+.timer__start {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.timer__settings {
+    background-image: url(FILES/STARTER/images/gear.svg);
+    width: 32px;
+    height: 32px;
+    
 }
